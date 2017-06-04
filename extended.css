@@ -115,7 +115,7 @@
   border-radius: 0px;
   -webkit-appearance: none;
   -webkit-border-radius: 0px;
-  -moz-borderradius: 0px;
+  -moz-border-radius: 0px;
 }
 [mod-shape~="remove-top"]{
   border-top-left-radius: 0px;
