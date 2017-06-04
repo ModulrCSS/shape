@@ -1,0 +1,997 @@
+/* extra large size */
+
+@media (min-width: 1920px){
+
+  [mod-if-screen-xl~="shape-rounded"],
+	[mod-if-screen-xl~="shape-circle"]{
+		border-radius: 122px;
+  	-moz-border-radius: 122px;
+  	-webkit-border-radius: 122px;
+	}
+	[mod-if-screen-xl~="shape-round-top"]{
+		border-top-left-radius: 122px;
+		border-top-right-radius: 122px;
+		-moz-border-top-left-radius: 122px;
+		-moz-border-top-right-radius: 122px;
+		-webkit-border-top-left-radius: 122px;
+		-webkit-border-top-right-radius: 122px;
+	}
+	[mod-if-screen-xl~="shape-round-right"]{
+		border-top-right-radius: 122px;
+		border-bottom-right-radius: 122px;
+		-moz-border-top-right-radius: 122px;
+		-moz-border-bottom-right-radius: 122px;
+		-webkit-border-top-right-radius: 122px;
+		-webkit-border-bottom-right-radius: 122px;
+	}
+	[mod-if-screen-xl~="shape-round-bottom"]{
+		border-bottom-left-radius: 122px;
+		border-bottom-right-radius: 122px;
+		-moz-border-bottom-left-radius: 122px;
+		-moz-border-bottom-right-radius: 122px;
+		-webkit-border-bottom-left-radius: 122px;
+		-webkit-border-bottom-right-radius: 122px;
+	}
+	[mod-if-screen-xl~="shape-round-left"]{
+		border-top-left-radius: 122px;
+		border-bottom-left-radius: 122px;
+		-moz-border-top-left-radius: 122px;
+		-moz-border-bottom-left-radius: 122px;
+		-webkit-border-top-left-radius: 122px;
+		-webkit-border-bottom-left-radius: 122px;
+	}
+
+	/* -- rounded shapes -- */
+
+	[mod-if-screen-xl~="shape-rounded"]{
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	}
+	[mod-if-screen-xl~="shape-rounded-2"]{
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+	}
+	[mod-if-screen-xl~="shape-rounded-4"]{
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+	}
+	[mod-if-screen-xl~="shape-rounded-6"]{
+		border-radius: 6px;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+	}
+	[mod-if-screen-xl~="shape-rounded-8"]{
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+	}
+	[mod-if-screen-xl~="shape-rounded-10"]{
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+	[mod-if-screen-xl~="shape-rounded-12"]{
+		border-radius: 12px;
+		-moz-border-radius: 12px;
+		-webkit-border-radius: 12px;
+	}
+	[mod-if-screen-xl~="shape-rounded-14"]{
+		border-radius: 14px;
+		-moz-border-radius: 14px;
+		-webkit-border-radius: 14px;
+	}
+	[mod-if-screen-xl~="shape-rounded-16"]{
+		border-radius: 16px;
+		-moz-border-radius: 16px;
+		-webkit-border-radius: 16px;
+	}
+	[mod-if-screen-xl~="shape-rounded-18"]{
+		border-radius: 18px;
+		-moz-border-radius: 18px;
+		-webkit-border-radius: 18px;
+	}
+	[mod-if-screen-xl~="shape-rounded-20"]{
+		border-radius: 20px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+	}
+
+
+
+	/* __ remove rounded values __ */
+
+	[mod-if-screen-xl~="remove-shape"]{
+		border-radius: 0px;
+		-webkit-appearance: none;
+		-webkit-border-radius: 0px;
+		-moz-borderradius: 0px;
+	}
+	[mod-if-screen-xl~="remove-top-shape"]{
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		-moz-border-top-left-radius: 0px;
+		-moz-border-top-right-radius: 0px;
+		-webkit-border-top-left-radius: 0px;
+		-webkit-border-top-right-radius: 0px;
+	}
+	[mod-if-screen-xl~="remove-bottom-shape"]{
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		-moz-border-bottom-left-radius: 0px;
+		-moz-border-bottom-right-radius: 0px;
+		-webkit-border-bottom-left-radius: 0px;
+		-webkit-border-bottom-right-radius: 0px;
+	}
+	[mod-if-screen-xl~="remove-left-shape"]{
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0px;
+		-moz-border-top-left-radius: 0;
+		-moz-border-bottom-left-radius: 0px;
+		-webkit-border-top-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0px;
+	}
+	[mod-if-screen-xl~="remove-right-shape"]{
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0px;
+		-moz-border-top-right-radius: 0;
+		-moz-border-bottom-right-radius: 0px;
+		-webkit-border-top-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0px;
+	}
+	[mod-if-screen-xl~="remove-top-left-shape"]{
+		border-top-left-radius: 0;
+		-moz-border-top-left-radius: 0;
+		-webkt-border-top-left-radius: 0;
+	}
+	[mod-if-screen-xl~="remove-top-right-shape"]{
+		border-top-right-radius: 0;
+		-moz-border-top-right-radius: 0;
+		-webkit-border-top-right-radius: 0;
+	}
+	[mod-if-screen-xl~="remove-bottom-right-shape"]{
+		border-bottom-right-radius: 0;
+		-moz-border-bottom-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0;
+	}
+	[mod-if-screen-xl~="remove-bottom-left-shape"]{
+		border-bottom-left-radius: 0;
+		-moz-border-bottom-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0;
+	}
+
+}
+
+/* large size */
+
+@media (max-width: 1920px){
+	
+	[mod-if-screen-lg~="shape-rounded"],
+	[mod-if-screen-lg~="shape-circle"]{
+		border-radius: 122px;
+  	-moz-border-radius: 122px;
+  	-webkit-border-radius: 122px;
+	}
+	[mod-if-screen-lg~="shape-round-top"]{
+		border-top-left-radius: 122px;
+		border-top-right-radius: 122px;
+		-moz-border-top-left-radius: 122px;
+		-moz-border-top-right-radius: 122px;
+		-webkit-border-top-left-radius: 122px;
+		-webkit-border-top-right-radius: 122px;
+	}
+	[mod-if-screen-lg~="shape-round-right"]{
+		border-top-right-radius: 122px;
+		border-bottom-right-radius: 122px;
+		-moz-border-top-right-radius: 122px;
+		-moz-border-bottom-right-radius: 122px;
+		-webkit-border-top-right-radius: 122px;
+		-webkit-border-bottom-right-radius: 122px;
+	}
+	[mod-if-screen-lg~="shape-round-bottom"]{
+		border-bottom-left-radius: 122px;
+		border-bottom-right-radius: 122px;
+		-moz-border-bottom-left-radius: 122px;
+		-moz-border-bottom-right-radius: 122px;
+		-webkit-border-bottom-left-radius: 122px;
+		-webkit-border-bottom-right-radius: 122px;
+	}
+	[mod-if-screen-lg~="shape-round-left"]{
+		border-top-left-radius: 122px;
+		border-bottom-left-radius: 122px;
+		-moz-border-top-left-radius: 122px;
+		-moz-border-bottom-left-radius: 122px;
+		-webkit-border-top-left-radius: 122px;
+		-webkit-border-bottom-left-radius: 122px;
+	}
+
+	/* -- rounded shapes -- */
+
+	[mod-if-screen-lg~="shape-rounded"]{
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	}
+	[mod-if-screen-lg~="shape-rounded-2"]{
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+	}
+	[mod-if-screen-lg~="shape-rounded-4"]{
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+	}
+	[mod-if-screen-lg~="shape-rounded-6"]{
+		border-radius: 6px;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+	}
+	[mod-if-screen-lg~="shape-rounded-8"]{
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+	}
+	[mod-if-screen-lg~="shape-rounded-10"]{
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+	[mod-if-screen-lg~="shape-rounded-12"]{
+		border-radius: 12px;
+		-moz-border-radius: 12px;
+		-webkit-border-radius: 12px;
+	}
+	[mod-if-screen-lg~="shape-rounded-14"]{
+		border-radius: 14px;
+		-moz-border-radius: 14px;
+		-webkit-border-radius: 14px;
+	}
+	[mod-if-screen-lg~="shape-rounded-16"]{
+		border-radius: 16px;
+		-moz-border-radius: 16px;
+		-webkit-border-radius: 16px;
+	}
+	[mod-if-screen-lg~="shape-rounded-18"]{
+		border-radius: 18px;
+		-moz-border-radius: 18px;
+		-webkit-border-radius: 18px;
+	}
+	[mod-if-screen-lg~="shape-rounded-20"]{
+		border-radius: 20px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+	}
+
+
+
+	/* __ remove rounded values __ */
+
+	[mod-if-screen-lg~="remove-shape"]{
+		border-radius: 0px;
+		-webkit-appearance: none;
+		-webkit-border-radius: 0px;
+		-moz-borderradius: 0px;
+	}
+	[mod-if-screen-lg~="remove-top-shape"]{
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		-moz-border-top-left-radius: 0px;
+		-moz-border-top-right-radius: 0px;
+		-webkit-border-top-left-radius: 0px;
+		-webkit-border-top-right-radius: 0px;
+	}
+	[mod-if-screen-lg~="remove-bottom-shape"]{
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		-moz-border-bottom-left-radius: 0px;
+		-moz-border-bottom-right-radius: 0px;
+		-webkit-border-bottom-left-radius: 0px;
+		-webkit-border-bottom-right-radius: 0px;
+	}
+	[mod-if-screen-lg~="remove-left-shape"]{
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0px;
+		-moz-border-top-left-radius: 0;
+		-moz-border-bottom-left-radius: 0px;
+		-webkit-border-top-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0px;
+	}
+	[mod-if-screen-lg~="remove-right-shape"]{
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0px;
+		-moz-border-top-right-radius: 0;
+		-moz-border-bottom-right-radius: 0px;
+		-webkit-border-top-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0px;
+	}
+	[mod-if-screen-lg~="remove-top-left-shape"]{
+		border-top-left-radius: 0;
+		-moz-border-top-left-radius: 0;
+		-webkt-border-top-left-radius: 0;
+	}
+	[mod-if-screen-lg~="remove-top-right-shape"]{
+		border-top-right-radius: 0;
+		-moz-border-top-right-radius: 0;
+		-webkit-border-top-right-radius: 0;
+	}
+	[mod-if-screen-lg~="remove-bottom-right-shape"]{
+		border-bottom-right-radius: 0;
+		-moz-border-bottom-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0;
+	}
+	[mod-if-screen-lg~="remove-bottom-left-shape"]{
+		border-bottom-left-radius: 0;
+		-moz-border-bottom-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0;
+	}
+}
+
+/* medium size */
+
+@media (max-width: 1280px){
+  
+	[mod-if-screen-md~="shape-rounded"],
+	[mod-if-screen-md~="shape-circle"]{
+		border-radius: 122px;
+  	-moz-border-radius: 122px;
+  	-webkit-border-radius: 122px;
+	}
+	[mod-if-screen-md~="shape-round-top"]{
+		border-top-left-radius: 122px;
+		border-top-right-radius: 122px;
+		-moz-border-top-left-radius: 122px;
+		-moz-border-top-right-radius: 122px;
+		-webkit-border-top-left-radius: 122px;
+		-webkit-border-top-right-radius: 122px;
+	}
+	[mod-if-screen-md~="shape-round-right"]{
+		border-top-right-radius: 122px;
+		border-bottom-right-radius: 122px;
+		-moz-border-top-right-radius: 122px;
+		-moz-border-bottom-right-radius: 122px;
+		-webkit-border-top-right-radius: 122px;
+		-webkit-border-bottom-right-radius: 122px;
+	}
+	[mod-if-screen-md~="shape-round-bottom"]{
+		border-bottom-left-radius: 122px;
+		border-bottom-right-radius: 122px;
+		-moz-border-bottom-left-radius: 122px;
+		-moz-border-bottom-right-radius: 122px;
+		-webkit-border-bottom-left-radius: 122px;
+		-webkit-border-bottom-right-radius: 122px;
+	}
+	[mod-if-screen-md~="shape-round-left"]{
+		border-top-left-radius: 122px;
+		border-bottom-left-radius: 122px;
+		-moz-border-top-left-radius: 122px;
+		-moz-border-bottom-left-radius: 122px;
+		-webkit-border-top-left-radius: 122px;
+		-webkit-border-bottom-left-radius: 122px;
+	}
+
+	/* -- rounded shapes -- */
+
+	[mod-if-screen-md~="shape-rounded"]{
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	}
+	[mod-if-screen-md~="shape-rounded-2"]{
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+	}
+	[mod-if-screen-md~="shape-rounded-4"]{
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+	}
+	[mod-if-screen-md~="shape-rounded-6"]{
+		border-radius: 6px;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+	}
+	[mod-if-screen-md~="shape-rounded-8"]{
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+	}
+	[mod-if-screen-md~="shape-rounded-10"]{
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+	[mod-if-screen-md~="shape-rounded-12"]{
+		border-radius: 12px;
+		-moz-border-radius: 12px;
+		-webkit-border-radius: 12px;
+	}
+	[mod-if-screen-md~="shape-rounded-14"]{
+		border-radius: 14px;
+		-moz-border-radius: 14px;
+		-webkit-border-radius: 14px;
+	}
+	[mod-if-screen-md~="shape-rounded-16"]{
+		border-radius: 16px;
+		-moz-border-radius: 16px;
+		-webkit-border-radius: 16px;
+	}
+	[mod-if-screen-md~="shape-rounded-18"]{
+		border-radius: 18px;
+		-moz-border-radius: 18px;
+		-webkit-border-radius: 18px;
+	}
+	[mod-if-screen-md~="shape-rounded-20"]{
+		border-radius: 20px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+	}
+
+
+
+	/* __ remove rounded values __ */
+
+	[mod-if-screen-md~="remove-shape"]{
+		border-radius: 0px;
+		-webkit-appearance: none;
+		-webkit-border-radius: 0px;
+		-moz-borderradius: 0px;
+	}
+	[mod-if-screen-md~="remove-top-shape"]{
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		-moz-border-top-left-radius: 0px;
+		-moz-border-top-right-radius: 0px;
+		-webkit-border-top-left-radius: 0px;
+		-webkit-border-top-right-radius: 0px;
+	}
+	[mod-if-screen-md~="remove-bottom-shape"]{
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		-moz-border-bottom-left-radius: 0px;
+		-moz-border-bottom-right-radius: 0px;
+		-webkit-border-bottom-left-radius: 0px;
+		-webkit-border-bottom-right-radius: 0px;
+	}
+	[mod-if-screen-md~="remove-left-shape"]{
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0px;
+		-moz-border-top-left-radius: 0;
+		-moz-border-bottom-left-radius: 0px;
+		-webkit-border-top-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0px;
+	}
+	[mod-if-screen-md~="remove-right-shape"]{
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0px;
+		-moz-border-top-right-radius: 0;
+		-moz-border-bottom-right-radius: 0px;
+		-webkit-border-top-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0px;
+	}
+	[mod-if-screen-md~="remove-top-left-shape"]{
+		border-top-left-radius: 0;
+		-moz-border-top-left-radius: 0;
+		-webkt-border-top-left-radius: 0;
+	}
+	[mod-if-screen-md~="remove-top-right-shape"]{
+		border-top-right-radius: 0;
+		-moz-border-top-right-radius: 0;
+		-webkit-border-top-right-radius: 0;
+	}
+	[mod-if-screen-md~="remove-bottom-right-shape"]{
+		border-bottom-right-radius: 0;
+		-moz-border-bottom-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0;
+	}
+	[mod-if-screen-md~="remove-bottom-left-shape"]{
+		border-bottom-left-radius: 0;
+		-moz-border-bottom-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0;
+	}
+	
+}
+
+/* small size */
+
+@media (max-width: 960px){
+  
+	[mod-if-screen-sm~="shape-rounded"],
+	[mod-if-screen-sm~="shape-circle"]{
+		border-radius: 122px;
+  	-moz-border-radius: 122px;
+  	-webkit-border-radius: 122px;
+	}
+	[mod-if-screen-sm~="shape-round-top"]{
+		border-top-left-radius: 122px;
+		border-top-right-radius: 122px;
+		-moz-border-top-left-radius: 122px;
+		-moz-border-top-right-radius: 122px;
+		-webkit-border-top-left-radius: 122px;
+		-webkit-border-top-right-radius: 122px;
+	}
+	[mod-if-screen-sm~="shape-round-right"]{
+		border-top-right-radius: 122px;
+		border-bottom-right-radius: 122px;
+		-moz-border-top-right-radius: 122px;
+		-moz-border-bottom-right-radius: 122px;
+		-webkit-border-top-right-radius: 122px;
+		-webkit-border-bottom-right-radius: 122px;
+	}
+	[mod-if-screen-sm~="shape-round-bottom"]{
+		border-bottom-left-radius: 122px;
+		border-bottom-right-radius: 122px;
+		-moz-border-bottom-left-radius: 122px;
+		-moz-border-bottom-right-radius: 122px;
+		-webkit-border-bottom-left-radius: 122px;
+		-webkit-border-bottom-right-radius: 122px;
+	}
+	[mod-if-screen-sm~="shape-round-left"]{
+		border-top-left-radius: 122px;
+		border-bottom-left-radius: 122px;
+		-moz-border-top-left-radius: 122px;
+		-moz-border-bottom-left-radius: 122px;
+		-webkit-border-top-left-radius: 122px;
+		-webkit-border-bottom-left-radius: 122px;
+	}
+
+	/* -- rounded shapes -- */
+
+	[mod-if-screen-sm~="shape-rounded"]{
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	}
+	[mod-if-screen-sm~="shape-rounded-2"]{
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+	}
+	[mod-if-screen-sm~="shape-rounded-4"]{
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+	}
+	[mod-if-screen-sm~="shape-rounded-6"]{
+		border-radius: 6px;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+	}
+	[mod-if-screen-sm~="shape-rounded-8"]{
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+	}
+	[mod-if-screen-sm~="shape-rounded-10"]{
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+	[mod-if-screen-sm~="shape-rounded-12"]{
+		border-radius: 12px;
+		-moz-border-radius: 12px;
+		-webkit-border-radius: 12px;
+	}
+	[mod-if-screen-sm~="shape-rounded-14"]{
+		border-radius: 14px;
+		-moz-border-radius: 14px;
+		-webkit-border-radius: 14px;
+	}
+	[mod-if-screen-sm~="shape-rounded-16"]{
+		border-radius: 16px;
+		-moz-border-radius: 16px;
+		-webkit-border-radius: 16px;
+	}
+	[mod-if-screen-sm~="shape-rounded-18"]{
+		border-radius: 18px;
+		-moz-border-radius: 18px;
+		-webkit-border-radius: 18px;
+	}
+	[mod-if-screen-sm~="shape-rounded-20"]{
+		border-radius: 20px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+	}
+
+
+
+	/* __ remove rounded values __ */
+
+	[mod-if-screen-sm~="remove-shape"]{
+		border-radius: 0px;
+		-webkit-appearance: none;
+		-webkit-border-radius: 0px;
+		-moz-borderradius: 0px;
+	}
+	[mod-if-screen-sm~="remove-top-shape"]{
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		-moz-border-top-left-radius: 0px;
+		-moz-border-top-right-radius: 0px;
+		-webkit-border-top-left-radius: 0px;
+		-webkit-border-top-right-radius: 0px;
+	}
+	[mod-if-screen-sm~="remove-bottom-shape"]{
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		-moz-border-bottom-left-radius: 0px;
+		-moz-border-bottom-right-radius: 0px;
+		-webkit-border-bottom-left-radius: 0px;
+		-webkit-border-bottom-right-radius: 0px;
+	}
+	[mod-if-screen-sm~="remove-left-shape"]{
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0px;
+		-moz-border-top-left-radius: 0;
+		-moz-border-bottom-left-radius: 0px;
+		-webkit-border-top-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0px;
+	}
+	[mod-if-screen-sm~="remove-right-shape"]{
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0px;
+		-moz-border-top-right-radius: 0;
+		-moz-border-bottom-right-radius: 0px;
+		-webkit-border-top-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0px;
+	}
+	[mod-if-screen-sm~="remove-top-left-shape"]{
+		border-top-left-radius: 0;
+		-moz-border-top-left-radius: 0;
+		-webkt-border-top-left-radius: 0;
+	}
+	[mod-if-screen-sm~="remove-top-right-shape"]{
+		border-top-right-radius: 0;
+		-moz-border-top-right-radius: 0;
+		-webkit-border-top-right-radius: 0;
+	}
+	[mod-if-screen-sm~="remove-bottom-right-shape"]{
+		border-bottom-right-radius: 0;
+		-moz-border-bottom-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0;
+	}
+	[mod-if-screen-sm~="remove-bottom-left-shape"]{
+		border-bottom-left-radius: 0;
+		-moz-border-bottom-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0;
+	}
+	
+
+}
+
+/* extra small xs */
+
+@media (max-width: 748px){
+
+   [mod-if-screen-xs~="shape-rounded"],
+	[mod-if-screen-xs~="shape-circle"]{
+		border-radius: 122px;
+  	-moz-border-radius: 122px;
+  	-webkit-border-radius: 122px;
+	}
+	[mod-if-screen-xs~="shape-round-top"]{
+		border-top-left-radius: 122px;
+		border-top-right-radius: 122px;
+		-moz-border-top-left-radius: 122px;
+		-moz-border-top-right-radius: 122px;
+		-webkit-border-top-left-radius: 122px;
+		-webkit-border-top-right-radius: 122px;
+	}
+	[mod-if-screen-xs~="shape-round-right"]{
+		border-top-right-radius: 122px;
+		border-bottom-right-radius: 122px;
+		-moz-border-top-right-radius: 122px;
+		-moz-border-bottom-right-radius: 122px;
+		-webkit-border-top-right-radius: 122px;
+		-webkit-border-bottom-right-radius: 122px;
+	}
+	[mod-if-screen-xs~="shape-round-bottom"]{
+		border-bottom-left-radius: 122px;
+		border-bottom-right-radius: 122px;
+		-moz-border-bottom-left-radius: 122px;
+		-moz-border-bottom-right-radius: 122px;
+		-webkit-border-bottom-left-radius: 122px;
+		-webkit-border-bottom-right-radius: 122px;
+	}
+	[mod-if-screen-xs~="shape-round-left"]{
+		border-top-left-radius: 122px;
+		border-bottom-left-radius: 122px;
+		-moz-border-top-left-radius: 122px;
+		-moz-border-bottom-left-radius: 122px;
+		-webkit-border-top-left-radius: 122px;
+		-webkit-border-bottom-left-radius: 122px;
+	}
+
+	/* -- rounded shapes -- */
+
+	[mod-if-screen-xs~="shape-rounded"]{
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	}
+	[mod-if-screen-xs~="shape-rounded-2"]{
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+	}
+	[mod-if-screen-xs~="shape-rounded-4"]{
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+	}
+	[mod-if-screen-xs~="shape-rounded-6"]{
+		border-radius: 6px;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+	}
+	[mod-if-screen-xs~="shape-rounded-8"]{
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+	}
+	[mod-if-screen-xs~="shape-rounded-10"]{
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+	[mod-if-screen-xs~="shape-rounded-12"]{
+		border-radius: 12px;
+		-moz-border-radius: 12px;
+		-webkit-border-radius: 12px;
+	}
+	[mod-if-screen-xs~="shape-rounded-14"]{
+		border-radius: 14px;
+		-moz-border-radius: 14px;
+		-webkit-border-radius: 14px;
+	}
+	[mod-if-screen-xs~="shape-rounded-16"]{
+		border-radius: 16px;
+		-moz-border-radius: 16px;
+		-webkit-border-radius: 16px;
+	}
+	[mod-if-screen-xs~="shape-rounded-18"]{
+		border-radius: 18px;
+		-moz-border-radius: 18px;
+		-webkit-border-radius: 18px;
+	}
+	[mod-if-screen-xs~="shape-rounded-20"]{
+		border-radius: 20px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+	}
+
+
+
+	/* __ remove rounded values __ */
+
+	[mod-if-screen-xs~="remove-shape"]{
+		border-radius: 0px;
+		-webkit-appearance: none;
+		-webkit-border-radius: 0px;
+		-moz-borderradius: 0px;
+	}
+	[mod-if-screen-xs~="remove-top-shape"]{
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		-moz-border-top-left-radius: 0px;
+		-moz-border-top-right-radius: 0px;
+		-webkit-border-top-left-radius: 0px;
+		-webkit-border-top-right-radius: 0px;
+	}
+	[mod-if-screen-xs~="remove-bottom-shape"]{
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		-moz-border-bottom-left-radius: 0px;
+		-moz-border-bottom-right-radius: 0px;
+		-webkit-border-bottom-left-radius: 0px;
+		-webkit-border-bottom-right-radius: 0px;
+	}
+	[mod-if-screen-xs~="remove-left-shape"]{
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0px;
+		-moz-border-top-left-radius: 0;
+		-moz-border-bottom-left-radius: 0px;
+		-webkit-border-top-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0px;
+	}
+	[mod-if-screen-xs~="remove-right-shape"]{
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0px;
+		-moz-border-top-right-radius: 0;
+		-moz-border-bottom-right-radius: 0px;
+		-webkit-border-top-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0px;
+	}
+	[mod-if-screen-xs~="remove-top-left-shape"]{
+		border-top-left-radius: 0;
+		-moz-border-top-left-radius: 0;
+		-webkt-border-top-left-radius: 0;
+	}
+	[mod-if-screen-xs~="remove-top-right-shape"]{
+		border-top-right-radius: 0;
+		-moz-border-top-right-radius: 0;
+		-webkit-border-top-right-radius: 0;
+	}
+	[mod-if-screen-xs~="remove-bottom-right-shape"]{
+		border-bottom-right-radius: 0;
+		-moz-border-bottom-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0;
+	}
+	[mod-if-screen-xs~="remove-bottom-left-shape"]{
+		border-bottom-left-radius: 0;
+		-moz-border-bottom-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0;
+	}
+	
+
+}
+
+/* extra extra small */
+
+@media (max-width: 480px){
+  
+	  [mod-if-screen-xxs~="shape-rounded"],
+	[mod-if-screen-xxs~="shape-circle"]{
+		border-radius: 122px;
+  	-moz-border-radius: 122px;
+  	-webkit-border-radius: 122px;
+	}
+	[mod-if-screen-xxs~="shape-round-top"]{
+		border-top-left-radius: 122px;
+		border-top-right-radius: 122px;
+		-moz-border-top-left-radius: 122px;
+		-moz-border-top-right-radius: 122px;
+		-webkit-border-top-left-radius: 122px;
+		-webkit-border-top-right-radius: 122px;
+	}
+	[mod-if-screen-xxs~="shape-round-right"]{
+		border-top-right-radius: 122px;
+		border-bottom-right-radius: 122px;
+		-moz-border-top-right-radius: 122px;
+		-moz-border-bottom-right-radius: 122px;
+		-webkit-border-top-right-radius: 122px;
+		-webkit-border-bottom-right-radius: 122px;
+	}
+	[mod-if-screen-xxs~="shape-round-bottom"]{
+		border-bottom-left-radius: 122px;
+		border-bottom-right-radius: 122px;
+		-moz-border-bottom-left-radius: 122px;
+		-moz-border-bottom-right-radius: 122px;
+		-webkit-border-bottom-left-radius: 122px;
+		-webkit-border-bottom-right-radius: 122px;
+	}
+	[mod-if-screen-xxs~="shape-round-left"]{
+		border-top-left-radius: 122px;
+		border-bottom-left-radius: 122px;
+		-moz-border-top-left-radius: 122px;
+		-moz-border-bottom-left-radius: 122px;
+		-webkit-border-top-left-radius: 122px;
+		-webkit-border-bottom-left-radius: 122px;
+	}
+
+	/* -- rounded shapes -- */
+
+	[mod-if-screen-xxs~="shape-rounded"]{
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	}
+	[mod-if-screen-xxs~="shape-rounded-2"]{
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+	}
+	[mod-if-screen-xxs~="shape-rounded-4"]{
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+	}
+	[mod-if-screen-xxs~="shape-rounded-6"]{
+		border-radius: 6px;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+	}
+	[mod-if-screen-xxs~="shape-rounded-8"]{
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+	}
+	[mod-if-screen-xxs~="shape-rounded-10"]{
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+	[mod-if-screen-xxs~="shape-rounded-12"]{
+		border-radius: 12px;
+		-moz-border-radius: 12px;
+		-webkit-border-radius: 12px;
+	}
+	[mod-if-screen-xxs~="shape-rounded-14"]{
+		border-radius: 14px;
+		-moz-border-radius: 14px;
+		-webkit-border-radius: 14px;
+	}
+	[mod-if-screen-xxs~="shape-rounded-16"]{
+		border-radius: 16px;
+		-moz-border-radius: 16px;
+		-webkit-border-radius: 16px;
+	}
+	[mod-if-screen-xxs~="shape-rounded-18"]{
+		border-radius: 18px;
+		-moz-border-radius: 18px;
+		-webkit-border-radius: 18px;
+	}
+	[mod-if-screen-xxs~="shape-rounded-20"]{
+		border-radius: 20px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+	}
+
+
+
+	/* __ remove rounded values __ */
+
+	[mod-if-screen-xxs~="remove-shape"]{
+		border-radius: 0px;
+		-webkit-appearance: none;
+		-webkit-border-radius: 0px;
+		-moz-borderradius: 0px;
+	}
+	[mod-if-screen-xxs~="remove-top-shape"]{
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		-moz-border-top-left-radius: 0px;
+		-moz-border-top-right-radius: 0px;
+		-webkit-border-top-left-radius: 0px;
+		-webkit-border-top-right-radius: 0px;
+	}
+	[mod-if-screen-xxs~="remove-bottom-shape"]{
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		-moz-border-bottom-left-radius: 0px;
+		-moz-border-bottom-right-radius: 0px;
+		-webkit-border-bottom-left-radius: 0px;
+		-webkit-border-bottom-right-radius: 0px;
+	}
+	[mod-if-screen-xxs~="remove-left-shape"]{
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0px;
+		-moz-border-top-left-radius: 0;
+		-moz-border-bottom-left-radius: 0px;
+		-webkit-border-top-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0px;
+	}
+	[mod-if-screen-xxs~="remove-right-shape"]{
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0px;
+		-moz-border-top-right-radius: 0;
+		-moz-border-bottom-right-radius: 0px;
+		-webkit-border-top-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0px;
+	}
+	[mod-if-screen-xxs~="remove-top-left-shape"]{
+		border-top-left-radius: 0;
+		-moz-border-top-left-radius: 0;
+		-webkt-border-top-left-radius: 0;
+	}
+	[mod-if-screen-xxs~="remove-top-right-shape"]{
+		border-top-right-radius: 0;
+		-moz-border-top-right-radius: 0;
+		-webkit-border-top-right-radius: 0;
+	}
+	[mod-if-screen-xxs~="remove-bottom-right-shape"]{
+		border-bottom-right-radius: 0;
+		-moz-border-bottom-right-radius: 0;
+		-webkit-border-bottom-right-radius: 0;
+	}
+	[mod-if-screen-xxs~="remove-bottom-left-shape"]{
+		border-bottom-left-radius: 0;
+		-moz-border-bottom-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0;
+	}
+	
+
+}
