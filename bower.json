@@ -1,0 +1,26 @@
+{
+  "name": "modulr-shape",
+  "homepage": "https://github.com/ModulrCSS/shape",
+  "authors": [
+    "uloga <wpnemesis@gmail.com>"
+  ],
+  "description": "Modulr.css Shape Module ( rounded corners for now: will be extended in the future )",
+  "main": "",
+  "keywords": [
+    "rounded",
+    "corners",
+    "shapes",
+    "css3",
+    "modulr",
+    "frontend",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
